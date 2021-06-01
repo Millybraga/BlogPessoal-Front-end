@@ -24,14 +24,14 @@ export class CadastrarComponent implements OnInit {
     window.scroll(0, 0) //X=0 e Y=0
   }
 
-  ConfirmeSenha(event: any) {
+  confirmarSenha(event: any) {
     this.confirmeSenha = event.target.value
   }
-  TipoUser(event: any) {
+  tipoUsuario(event: any) {
     this.tipoUser = event.target.value
   }
 
-  Cadastrar() {
+  cadastrar() {
     this.user.tipo = this.tipoUser
     
     if (this.user.senha != this.confirmeSenha) {
