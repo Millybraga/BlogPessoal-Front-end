@@ -8,6 +8,10 @@ import { TemaEditComponent } from './edit/tema-edit/tema-edit.component';
 import { EntrarComponent } from './entrar/entrar.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { TemaComponent } from './tema/tema.component';
+  
+
+
+
 
 const routes: Routes = [
 
@@ -24,7 +28,9 @@ const routes: Routes = [
   {path: "tema-delete/:id", component: TemaDeleteComponent},
 
   {path: "postagem-edit/:id", component: PostagemEditComponent},
-  {path: "postagem-delete/:id", component: PostagemDeleteComponent}
+  {path: "postagem-delete/:id", component: PostagemDeleteComponent},
+
+
 
 ];
 
